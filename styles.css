@@ -1,0 +1,195 @@
+/* font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+
+
+/* shared styles */
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+.Primary-btn{
+    color: white;
+    background: #FF5400;
+    border-radius: .5rem;
+    border: none;
+    padding: 1rem 2.125rem ;
+}
+
+/* header styles */
+
+header{
+    margin-bottom: 6.25rem;
+    
+}
+
+/* banner styles */
+
+.banner-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.txt-inptbar{
+    position: absolute;
+
+
+}
+
+.banner-txt h1, p{
+    text-align: center;
+    color: white;
+}
+
+.input-bar{
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    border-radius: .5rem;
+
+}
+
+.input-bar input{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem ;
+    border-radius: .5rem;
+    border: none;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+    /*  main section */
+
+    /* section 2 */
+
+.popular-tours-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6.25rem;
+    gap: 5rem;
+}
+
+.txt-list-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.popular-tours-txt h1{
+    color: #131318;
+    margin-bottom: 1.5rem;
+}
+
+.popular-tours-txt p{
+    color: #5A5A5D;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    line-height: 1.6rem;    
+}
+
+.popular-tours-txt li{
+    margin-bottom: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.txt-list-btn .Primary-btn{
+    margin-right: 28rem;
+}
+
+
+/* section 3 */
+
+.Chose-your-destination-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CYD-txt{
+    text-align: center;
+}
+
+
+.CYD-txt p{
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.CYD-imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+
+}
+
+
+.img-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+}
+
+
+
+
+
+
+
+/* media quaries */
+
+@media screen and (max-width: 600px){
+    
+    /* hearder */
+
+    .input-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .txt-inptbar{
+        padding: 1rem;
+    }
+
+    .input-bar input{
+        margin: 0rem 0rem 1rem 0rem;
+    }
+
+    /*  main section */
+
+
+    .popular-tours-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .popular-tours-txt{
+        padding: 0rem 1rem;
+    }
+
+    .txt-list-btn .Primary-btn{
+        margin-right: 16rem;
+        margin-left: 1rem;
+        padding: 1rem 2rem;
+    }
+    
+    /* section-3 */
+
+    .CYD-imgs, .row-1, .row-2, .row-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+    
