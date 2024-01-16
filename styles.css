@@ -37,7 +37,8 @@ header{
 
 .logo-name{
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -314,6 +315,17 @@ nav li{
 }
 
 /* Footer */
+
+.footer-logo img{
+    padding-bottom: 2rem;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
 
 .footer-contant{
     display: flex;
