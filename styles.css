@@ -9,6 +9,7 @@
     font-family: 'Mulish', sans-serif;
 }
 
+
 .Primary-btn{
     color: white;
     background: #FF5400;
@@ -22,6 +23,22 @@
 header{
     margin-bottom: 6.25rem;
     
+}
+
+/* nav styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ nav ul{
+    display: flex;
+    gap: 2.5rem;
+}
+
+nav li{
+    list-style: none;
 }
 
 /* banner styles */
@@ -199,6 +216,44 @@ header{
     padding: 2rem;
 }
 
+/* section-5 */
+
+.section-5-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 6.25rem;
+}
+
+.form-img{
+    display: flex;
+    justify-self: center;
+    gap: 1.2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 1.2rem 2.5rem;
+}
+
+.form-txt p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.form input{
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+
+}
 
 /* Footer */
 
@@ -258,6 +313,7 @@ header{
 
 @media screen and (max-width: 600px){
     
+
     /* hearder */
 
     .input-bar{
@@ -310,6 +366,15 @@ header{
         flex-direction: column;
     }
 
+    /* section-5 */
+
+        .form-img{
+            flex-direction: column;
+        }
+
+        .form{
+            padding: 1.2rem 2.5rem;
+        }
     /* footer */
 
     .footer-contant{
